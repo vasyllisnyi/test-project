@@ -1,0 +1,50 @@
+@import '../../assets/styles/index.scss';
+
+.table {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  -webkit-border-horizontal-spacing: 0;
+  -webkit-border-vertical-spacing: 0;
+}
+
+.table_head {
+  background-color: var(--background-grey-color);
+}
+
+.title {
+  padding: 5px;
+  font-size: 10px;
+
+  @include mq(tab) {
+    padding: 8px;
+
+    font-size: 16px;
+  }
+
+  @include mq(desk) {
+    padding: 10px;
+
+    font-size: 18px;
+  }
+}
+
+.item {
+  background-color: var(--background-grey-body-color);
+
+  padding: 5px;
+  font-size: 10px;
+
+  color: var(--text-grey-color);
+  border-bottom: 1px solid var(--border-grey-item-color);
+
+  @include mq(tab) {
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  @include mq(desk) {
+    padding: 10px;
+    font-size: 18px;
+  }
+}
