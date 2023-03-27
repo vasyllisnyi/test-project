@@ -1,5 +1,6 @@
 // Components
 import PageWrapper from 'components/PageWrapper/PageWrapper';
+import Table from 'components/Table/Table';
 
 // Styles
 // import s from './Homepage.module.scss';
@@ -7,8 +8,7 @@ import PageWrapper from 'components/PageWrapper/PageWrapper';
 const HomePage = () => {
   return (
     <PageWrapper>
-      <div>Add Product</div>
-      Add Product
+      <Table />
     </PageWrapper>
   );
 };
