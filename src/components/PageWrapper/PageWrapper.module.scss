@@ -1,0 +1,10 @@
+@import '../../assets/styles/index.scss';
+
+.bg_page {
+  width: 100%;
+  min-height: 100vh;
+
+  padding: 40px 0px;
+
+  background-color: var(--background-grey-color);
+}
