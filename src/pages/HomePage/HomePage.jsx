@@ -2,7 +2,7 @@
 import PageWrapper from 'components/PageWrapper/PageWrapper';
 
 // Styles
-import s from './Homepage.module.scss';
+// import s from './Homepage.module.scss';
 
 const HomePage = () => {
   return (
